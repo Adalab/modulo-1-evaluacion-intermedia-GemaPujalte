@@ -11,21 +11,33 @@ body {
 
 /* header*/
 
-header {
+.header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
   color: #4a4a4a;
 }
 
-.header {
-  /* position: fixed; */
-  /* top: 0;
-  width: 100%; */
+.logo-header {
+  padding-top: 10px;
 }
 
-.logo-header {
+.bullets {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.li-item-blog {
+  padding-right: 20px;
+}
+
+.links {
+  text-decoration: none;
 }
 
 /* main*/
